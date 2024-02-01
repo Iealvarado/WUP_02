@@ -26,7 +26,7 @@ veggy <- cabbages
 <!--Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method.!-->
 
 Predict VitC based on cultivation method
-VitC is numerical, Cult is categorical, so we use the Num~Cat helper file
+VitC is numerical, Cult is categorical
 
 # Results
 
@@ -43,7 +43,7 @@ plot(VitC~Cult,data=veggy)
 ```
 
 
-By looking at the graph there is a difference between c39 and c52, looking at the graph c52 cultivates more.
+By looking at the graph there is a difference between c39 and c52, looking at the graph c52 typically cultivates more.
 
 
 ### Numerical Descriptive Results
@@ -54,6 +54,10 @@ By looking at the graph there is a difference between c39 and c52, looking at th
 favstats(VitC~Cult,data=veggy)
 ```
 
+
+this table shows the average cultivation for c39 was 51.5, mean cultivation for c52 was 64.4
+
+
 ## Inferential Results
 
 <!--State hypothesis clearly.  Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc.  Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
@@ -61,7 +65,7 @@ favstats(VitC~Cult,data=veggy)
 ```{r}
 t.test(VitC~Cult,data=veggy)
 ```
-
+the P-value
 
 # Discussion and Conclusion
 
