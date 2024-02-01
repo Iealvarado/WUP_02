@@ -43,6 +43,8 @@ plot(VitC~Cult,data=veggy)
 ```
 
 
+By looking at the graph there is a difference between c39 and c52, looking at the graph c52 cultivates more.
+
 
 ### Numerical Descriptive Results
 
