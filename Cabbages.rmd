@@ -65,8 +65,14 @@ this table shows the average cultivation for c39 was 51.5, mean cultivation for 
 ```{r}
 t.test(VitC~Cult,data=veggy)
 ```
-the P-value
+
+the P-value is 0.00000003405 < 0.05 so we reject $H_O$
+
+
 
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+
+In conclusion c52 cultivates more than c39 so we reject the null hypothesis because the p-value is 0.00000003405 which is smaller than p<0.05
+
